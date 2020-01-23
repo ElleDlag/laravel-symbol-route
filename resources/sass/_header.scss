@@ -1,0 +1,38 @@
+header{
+    background: $col-base;
+    padding:10px 30px;
+    .logo{
+        a{
+            font-size: 2.5rem;
+            font-weight:600;
+            color: $col-details;
+            text-decoration: none;
+            .fas{
+                font-size: 2.5rem;
+            }
+        }
+        
+    }
+    .navigation{
+        a{
+            font-weight:500;
+            font-size: 2rem;
+            color:$col-highlight;
+            padding:10px 15px;
+            &:not(:last-child){
+                margin-right:10px;
+            }
+            &:hover{
+                text-decoration: none;
+                background-color: $col-highlight;
+                color:$col-base;
+            }
+        }
+    }
+    .log{
+        button{
+            font-size: 1.7rem;
+            background-color: $col-details!important;
+        }  
+    }
+}

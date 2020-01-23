@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    font-size:10px;
+}
+body{
+    box-sizing:border-box;
+    font-size:10px;
+    font-family: 'Montserrat';
+    font-weight:400;
+    color:$col-details;
+    height:100vh;
+}
+a{
+    text-decoration:none
+}
+ul,li{
+    list-style-type:none
+}
+main{
+    padding:20px 0;
+    overflow-y: hidden;
+}
+.wrapper{
+    height:100%;
+}

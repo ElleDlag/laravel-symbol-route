@@ -1,0 +1,31 @@
+footer{
+    background: $col-base;
+    padding:10px 15px;
+    >*{
+        font-size:1.6rem;
+        font-weight:400;
+    }
+    a{
+        color:$col-details;
+        font-size:1.6rem;
+        flex-basis:50%;
+    }
+    .fab{
+        font-size:2rem;
+        background:$col-highlight;
+        color:$col-base;
+        padding:10px;
+        &:not(:last-child){
+            margin-right:10px;
+        }
+        &:hover{
+            background:$col-details;
+        }
+    }
+    .map-link,
+    .copyright{
+        width:300px;
+        text-align: center;
+    }
+}
+    

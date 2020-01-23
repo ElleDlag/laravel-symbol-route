@@ -1,0 +1,49 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+//mycolor
+$col-base:#FAEED4;
+$col-details:rgb(51, 44, 189);
+$col-highlight:rgb(136, 13, 13);
+$col-light-details: rgb(173, 170, 230);
+$col-light-secondary: lightgray;
+//$col-light-third: rgb(240, 240, 240);
+
+//effects
+@mixin shadow-default($opacity) {
+    box-shadow: 3px 3px 7px 0px rgba(69, 69, 69, $opacity);
+}
+//mixin text
+@mixin padding-wrapper(){
+    padding:20px 40px;
+}
+@mixin title-text() {
+    font-size: 2.5rem;
+    font-weight:500;
+    padding:10px;
+}
+@mixin list-text() {
+    font-size: 2rem;
+    font-weight:300;
+    color:$col-details;
+    padding:5px;
+    
+}
+

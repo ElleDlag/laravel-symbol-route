@@ -11,5 +11,8 @@
 |
 */
 
-Route::get('/home', "Pages@homePage");
-Route::get('/about', "Pages@aboutPage");
+Route::get('/', "Pages@homePage")->name('home');
+Route::get('/pages/home', "Pages@homePage");
+Route::get('/pages/admin', "Pages@adminPage") -> name('page.admin') ;
+Route::get('/pages/user', "Pages@userPage")-> name('page.user');
+
